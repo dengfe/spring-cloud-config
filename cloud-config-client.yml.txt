@@ -9,17 +9,17 @@ server:
 spring:
   profiles: dev
   application:
-      name: microconfig-test-client5
+      name: config-test-client5
 
 eureka:
  client:
   serviceUrl:
-    defaultZone: http://admin:enjoy@localhost:7301/eureka
+    defaultZone: http://admin:cloud@localhost:7301/eureka
   register-with-eureka: false
 
 info:
-  app.name: microcloud-config-client-dev2
-  company.name: enjoy2
+  app.name: cloud-config-client-dev2
+  company.name: cn.cloud
 ---
 server:
   port: 8102
@@ -27,14 +27,14 @@ server:
 spring:
   profiles: beta
   application:
-      name: microconfig-test-client5
+      name: config-test-client5
 
 eureka:
  client:
   serviceUrl:
-    defaultZone: http://admin:enjoy@localhost:7301/eureka
+    defaultZone: http://admin:cloud@localhost:7301/eureka
   register-with-eureka: false
   
 info:
-  app.name: microcloud-config-client-beta2
-  company.name: enjoy
+  app.name: cloud-config-client-beta2
+  company.name: cn.cloud
