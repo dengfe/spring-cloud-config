@@ -6,9 +6,9 @@ pring:
 spring:
   profiles: dev
   application:
-      name: microconfig-test-devv
+      name: config-test-devv
 ---
 spring:
  profiles: default
  application:
-      name: microconfig-test-default
+      name: config-test-default
